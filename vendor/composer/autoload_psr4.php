@@ -27,6 +27,7 @@ return array(
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Studio\\' => array($vendorDir . '/franzl/studio/src'),
     'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'Sledov\\Quill\\' => array($vendorDir . '/sledov/flarum-ext-quill/src'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),

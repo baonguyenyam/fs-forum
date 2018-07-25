@@ -49,7 +49,8 @@
         "clarkwinkelmann/flarum-ext-emojionearea": "^0.1.2",
         "s9e/flarum-ext-autoimage": "*",
         "s9e/flarum-ext-mediaembed": "*",
-        "wiwatsrt/flarum-ext-best-answer": "^0.1.0@beta"
+        "wiwatsrt/flarum-ext-best-answer": "^0.1.0@beta",
+        "sledov/flarum-ext-quill": "^0.1.0@beta"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"

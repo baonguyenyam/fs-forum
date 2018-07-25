@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b68c03f0a1e0147ad90c3e3d4804beaa",
+    "content-hash": "b126b5e37751987df7a9d511461c6af5",
     "packages": [
         {
             "name": "avatar4eg/flarum-ext-transliterator",
@@ -4098,6 +4098,56 @@
             "time": "2018-02-02T09:27:13+00:00"
         },
         {
+            "name": "sledov/flarum-ext-quill",
+            "version": "0.1.0-beta.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/esledov/flarum-ext-quill.git",
+                "reference": "30484af6c4982d27a54f30595158885e465c47bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/esledov/flarum-ext-quill/zipball/30484af6c4982d27a54f30595158885e465c47bd",
+                "reference": "30484af6c4982d27a54f30595158885e465c47bd",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Quill Editor",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#1d92c9"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sledov\\Quill\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Egor Sledov",
+                    "email": "egor@sledov.com"
+                }
+            ],
+            "description": "Quill WYSIWYG editor for Flarum",
+            "keywords": [
+                "flarum",
+                "quill",
+                "wysiwyg"
+            ],
+            "time": "2017-09-09T04:26:37+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.9",
             "source": {
@@ -5168,7 +5218,8 @@
     "minimum-stability": "beta",
     "stability-flags": {
         "terabin/flarum-ext-sitemap": 10,
-        "wiwatsrt/flarum-ext-best-answer": 10
+        "wiwatsrt/flarum-ext-best-answer": 10,
+        "sledov/flarum-ext-quill": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

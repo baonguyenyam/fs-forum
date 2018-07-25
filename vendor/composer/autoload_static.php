@@ -65,6 +65,7 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'Symfony\\Component\\Console\\' => 26,
             'Studio\\' => 7,
             'Stringy\\' => 8,
+            'Sledov\\Quill\\' => 13,
         ),
         'R' => 
         array (
@@ -239,6 +240,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'Stringy\\' => 
         array (
             0 => __DIR__ . '/..' . '/danielstjules/stringy/src',
+        ),
+        'Sledov\\Quill\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sledov/flarum-ext-quill/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
