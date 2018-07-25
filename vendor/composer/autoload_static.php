@@ -41,10 +41,18 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'Zend\\Escaper\\' => 13,
             'Zend\\Diactoros\\' => 15,
         ),
+        'X' => 
+        array (
+            'XEngine\\MarkdownEditor\\' => 23,
+        ),
         'W' => 
         array (
             'WiwatSrt\\BestAnswer\\' => 20,
             'Whoops\\' => 7,
+        ),
+        'V' => 
+        array (
+            'Vingle\\Share\\Social\\' => 20,
         ),
         'T' => 
         array (
@@ -66,9 +74,12 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'Studio\\' => 7,
             'Stringy\\' => 8,
             'Sledov\\Quill\\' => 13,
+            'Sijad\\Pages\\' => 12,
+            'Sijad\\Links\\' => 12,
         ),
         'R' => 
         array (
+            'Reflar\\Reactions\\' => 17,
             'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
@@ -87,6 +98,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'League\\OAuth2\\Client\\' => 21,
             'League\\OAuth1\\' => 14,
             'League\\Flysystem\\' => 17,
+        ),
+        'J' => 
+        array (
+            'JohnHearfield\\Auth\\Google\\' => 26,
         ),
         'I' => 
         array (
@@ -177,6 +192,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
         ),
+        'XEngine\\MarkdownEditor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/xengine/flarum-ext-markdown-editor/src',
+        ),
         'WiwatSrt\\BestAnswer\\' => 
         array (
             0 => __DIR__ . '/..' . '/wiwatsrt/flarum-ext-best-answer/src',
@@ -184,6 +203,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Vingle\\Share\\Social\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vingle/flarum-share-social/src',
         ),
         'Tobscure\\JsonApi\\' => 
         array (
@@ -245,6 +268,18 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         array (
             0 => __DIR__ . '/..' . '/sledov/flarum-ext-quill/src',
         ),
+        'Sijad\\Pages\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sijad/flarum-ext-pages/src',
+        ),
+        'Sijad\\Links\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sijad/flarum-ext-links/src',
+        ),
+        'Reflar\\Reactions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/reflar/reactions/src',
+        ),
         'Ramsey\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
@@ -274,6 +309,7 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             0 => __DIR__ . '/..' . '/league/oauth2-client/src',
             1 => __DIR__ . '/..' . '/league/oauth2-facebook/src',
             2 => __DIR__ . '/..' . '/league/oauth2-github/src',
+            3 => __DIR__ . '/..' . '/league/oauth2-google/src',
         ),
         'League\\OAuth1\\' => 
         array (
@@ -282,6 +318,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'League\\Flysystem\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
+        ),
+        'JohnHearfield\\Auth\\Google\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/johnhearfield/flarum-ext-oauth-google/src',
         ),
         'Intervention\\Image\\' => 
         array (

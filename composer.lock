@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b126b5e37751987df7a9d511461c6af5",
+    "content-hash": "30992a2a0b01b1b2db8251deb9c4a150",
     "packages": [
         {
             "name": "avatar4eg/flarum-ext-transliterator",
@@ -2968,6 +2968,56 @@
             "time": "2015-03-20T14:31:23+00:00"
         },
         {
+            "name": "johnhearfield/flarum-ext-oauth-google",
+            "version": "v0.1.0-beta.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnhearfield/flarum-ext-oauth-google.git",
+                "reference": "438970ef70983c086fc609b5699222da1f0f5b81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnhearfield/flarum-ext-oauth-google/zipball/438970ef70983c086fc609b5699222da1f0f5b81",
+                "reference": "438970ef70983c086fc609b5699222da1f0f5b81",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5",
+                "league/oauth2-google": "~1.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Google Login",
+                    "icon": {
+                        "name": "google",
+                        "backgroundColor": "#D13E32",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JohnHearfield\\Auth\\Google\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Hearfield",
+                    "email": "dev@findingjohn.xyz"
+                }
+            ],
+            "description": "Allow users to log in with Google.",
+            "keywords": [
+                "Authentication"
+            ],
+            "time": "2016-06-08T20:21:26+00:00"
+        },
+        {
             "name": "league/flysystem",
             "version": "1.0.45",
             "source": {
@@ -3283,6 +3333,56 @@
                 "oauth2"
             ],
             "time": "2016-11-22T05:14:51+00:00"
+        },
+        {
+            "name": "league/oauth2-google",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-google.git",
+                "reference": "4788fcef5cf0fdb65e0322c3f4d4632d8f1f3e82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-google/zipball/4788fcef5cf0fdb65e0322c3f4d4632d8f1f3e82",
+                "reference": "4788fcef5cf0fdb65e0322c3f4d4632d8f1f3e82",
+                "shasum": ""
+            },
+            "require": {
+                "league/oauth2-client": "~1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Woody Gilk",
+                    "email": "woody.gilk@gmail.com",
+                    "homepage": "http://shadowhand.me"
+                }
+            ],
+            "description": "Google OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "client",
+                "google",
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2015-08-28T18:33:30+00:00"
         },
         {
             "name": "matthiasmullie/minify",
@@ -3903,6 +4003,70 @@
             "time": "2018-07-19T23:38:55+00:00"
         },
         {
+            "name": "reflar/reactions",
+            "version": "1.0.0-beta.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ReFlar/reactions.git",
+                "reference": "366075a97b87777eb8c33dc10a09b976a7480cd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ReFlar/reactions/zipball/366075a97b87777eb8c33dc10a09b976a7480cd5",
+                "reference": "366075a97b87777eb8c33dc10a09b976a7480cd5",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta-7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "ReFlar Reactions",
+                    "icon": {
+                        "name": "smile-o",
+                        "backgroundColor": "#263238",
+                        "color": "#FFF"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/6542-reactions-by-reflar"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Reflar\\Reactions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "dsevilla192@icloud.com",
+                    "homepage": "https://redevs.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Charlie K",
+                    "email": "issyrocks12@reflar.email",
+                    "homepage": "https://redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Reactions for Flarum",
+            "keywords": [
+                "Settings",
+                "flarum",
+                "misc",
+                "reactions",
+                "reflar"
+            ],
+            "time": "2018-05-19T23:53:25+00:00"
+        },
+        {
             "name": "s9e/flarum-ext-autoimage",
             "version": "1.0.2",
             "source": {
@@ -4096,6 +4260,108 @@
                 "Sitemap"
             ],
             "time": "2018-02-02T09:27:13+00:00"
+        },
+        {
+            "name": "sijad/flarum-ext-links",
+            "version": "0.1.0-beta.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-links.git",
+                "reference": "29c451034033894803568f66432ce7ebee938ae9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-links/zipball/29c451034033894803568f66432ce7ebee938ae9",
+                "reference": "29c451034033894803568f66432ce7ebee938ae9",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Links",
+                    "icon": {
+                        "name": "bars",
+                        "backgroundColor": "#83AF9B",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\Links\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Manage flarum primary navbar menu links.",
+            "keywords": [
+                "item",
+                "link",
+                "menu",
+                "nav"
+            ],
+            "time": "2016-05-03T20:05:44+00:00"
+        },
+        {
+            "name": "sijad/flarum-ext-pages",
+            "version": "0.1.0-beta.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-pages.git",
+                "reference": "ea54b0a0440663856911e845530caf82b71ded8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-pages/zipball/ea54b0a0440663856911e845530caf82b71ded8c",
+                "reference": "ea54b0a0440663856911e845530caf82b71ded8c",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Pages",
+                    "icon": {
+                        "name": "file-text-o",
+                        "backgroundColor": "#4C49A2",
+                        "color": "#B8DC3C"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\Pages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Create custom page with Flarum",
+            "keywords": [
+                "page",
+                "static"
+            ],
+            "time": "2016-10-23T14:52:44+00:00"
         },
         {
             "name": "sledov/flarum-ext-quill",
@@ -4845,6 +5111,57 @@
             "time": "2017-10-13T03:29:49+00:00"
         },
         {
+            "name": "vingle/flarum-share-social",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tutula1/vingle-share-social.git",
+                "reference": "0ce19c16e926c1d42e091218e627ec56be073506"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tutula1/vingle-share-social/zipball/0ce19c16e926c1d42e091218e627ec56be073506",
+                "reference": "0ce19c16e926c1d42e091218e627ec56be073506",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "_ Share Social",
+                    "icon": {
+                        "name": "share-alt",
+                        "backgroundColor": "#000",
+                        "color": "#FF0"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vingle\\Share\\Social\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Binh Duong",
+                    "email": "binh.duong@vingle.net"
+                }
+            ],
+            "description": "Include share social button.",
+            "keywords": [
+                "facebook",
+                "google",
+                "google plus",
+                "share",
+                "social",
+                "twitter"
+            ],
+            "time": "2015-12-13T10:36:14+00:00"
+        },
+        {
             "name": "wiwatsrt/flarum-ext-best-answer",
             "version": "v0.1.0-beta.11",
             "source": {
@@ -4896,6 +5213,44 @@
                 "flarum"
             ],
             "time": "2017-08-27T09:55:44+00:00"
+        },
+        {
+            "name": "xengine/flarum-ext-markdown-editor",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/XEngine/flarum-ext-markdown-editor.git",
+                "reference": "55639b2881420c76ff2a34916b19e4e270ddf776"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/XEngine/flarum-ext-markdown-editor/zipball/55639b2881420c76ff2a34916b19e4e270ddf776",
+                "reference": "55639b2881420c76ff2a34916b19e4e270ddf776",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Markdown Editor"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "XEngine\\MarkdownEditor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "XEngine",
+                    "email": "tidusdragonh3art@gmail.com"
+                }
+            ],
+            "description": "WYSIWYG Editor for Flarum",
+            "time": "2016-11-04T07:20:12+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -5219,7 +5574,11 @@
     "stability-flags": {
         "terabin/flarum-ext-sitemap": 10,
         "wiwatsrt/flarum-ext-best-answer": 10,
-        "sledov/flarum-ext-quill": 10
+        "sledov/flarum-ext-quill": 10,
+        "sijad/flarum-ext-pages": 10,
+        "sijad/flarum-ext-links": 10,
+        "reflar/reactions": 10,
+        "johnhearfield/flarum-ext-oauth-google": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
