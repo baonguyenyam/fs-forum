@@ -1,0 +1,39 @@
+{
+    "name": "tri-duong-dena/flarum-ext-vietnamese",
+    "type": "flarum-extension",
+    "description": "Vietnamese language pack for Flarum.",
+    "homepage": "https://github.com/tri-duong-dena/flarum-ext-vietnamese",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tri Duong",
+            "email": "duong.tri@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tri-duong-dena/flarum-ext-vietnamese/issues",
+        "source": "https://github.com/tri-duong-dena/flarum-ext-vietnamese"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.2.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Vietnam",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Tiếng Việt"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+validation:
+  accepted: ":attribute phải được chấp nhận."
+  active_url: ":attribute không phải URL hợp chuẩn."
+  after: ":attribute phải là một ngày sau ngày :date."
+  after_or_equal: ":attribute phải là một ngày từ ngày :date trở đi."
+  alpha: ":attribute chỉ được chứa chữ cái."
+  alpha_dash: ":attribute chỉ được chứa chữ cái, chữ số và gạch ngang."
+  alpha_num: ":attribute chỉ được chứa chữ cái và chữ số"
+  array: ":attribute phải là một mảng."
+  before: ":attribute phải là một ngày trước ngày :date."
+  before_or_equal: ":attribute phải là một ngày không muộn hơn ngày :date."
+  between:
+    numeric: ":attribute phải ở giữa :min và :max."
+    file: ":attribute phải có dung lượng từ :min đến :max kilobytes."
+    string: ":attribute phải gồm có :min đến :max kí tự."
+    array: ":attribute phải có từ :min đến :max phần tử."
+  boolean: ":attribute phải là đúng hoặc sai."
+  confirmed: ":attribute xác nhận không chính xác."
+  date: ":attribute không phải là ngày tháng hợp chuẩn."
+  date_format: ":attribute không theo đúng định dạng :other."
+  different: ":attribute và :other phải khác nhau."
+  digits: ":attribute phải có :digits chữ số."
+  digits_between: ":attribute phải có từ :min đến :max chữ số."
+  dimensions: ":attribute sai kích cỡ ảnh"
+  distinct: ":attribute có giá trị bị trùng lặp."
+  email: ":attribute phải là một email hợp chuẩn."
+  exists: "Lựa chọn :attribute không chính xác."
+  file: ":attribute phải là một file."
+  filled: ":attribute không được để trống."
+  image: ":attribute phải là một ảnh."
+  in: "Lựa chọn :attribute không chính xác."
+  in_array: ":attribute không tồn tại trong :other."
+  integer: ":attribute phải là một số nguyên."
+  ip: ":attribute phải là một địa chỉ IP."
+  ipv4: ":attribute phải là một địa chỉ IPv4."
+  ipv6: ":attribute phải là một địa chỉ  IPv6."
+  json: ":attribute phải là một chuỗi JSON."
+  max:
+    numeric: ":attribute không được lớn hơn :max."
+    file: ":attribute không được có dung lượng lớn hơn :max kilobytes."
+    string: ":attribute không được gồm nhiều hơn :max kí tự."
+    array: ":attribute không được có nhiều hơn :max phần tử."
+  mimes: ":attribute phải là file có định dạng: :values."
+  mimetypes: ":attribute phải là file có định dạng: :values."
+  min:
+    numeric: ":attribute không được bé hơn :min."
+    file: ":attribute không được có dung lượng bé hơn :min kilobytes."
+    string: ":attribute không được chứa ít hơn :min kí tự."
+    array: ":attribute không được chứa ít hơn  :min phần tử."
+  not_in: "Chọn lựa :attribute không chính xác."
+  numeric: ":attribute phải là một số."
+  present: ":attribute không được để trống."
+  regex: ":attribute định dạng không đúng."
+  required: ":attribute không được để trống."
+  required_if: ":attribute không được để trống nếu :other là :value."
+  required_unless: ":attribute không được để trống trừ phi :other là :values."
+  required_with: ":attribute không được để trống khi :values có giá trị."
+  required_with_all: ":attribute không được để trống khi :values có giá trị."
+  required_without: ":attribute không được để trống khi :values để trống."
+  required_without_all: ":attribute không được để trống khi không :values nào có giá trị."
+  same: ":attribute và :other phải khớp nhau."
+  size:
+    numeric: ":attribute phải có kích cỡ :size."
+    file: ":attribute phải có dung lượng :size kilobytes."
+    string: ":attribute phải có :size kí tự."
+    array: ":attribute phải chứa :size phần tử."
+  string: ":attribute phải là một chuỗi kí tự."
+  timezone: ":attribute phải là một vùng chính xác."
+  unique: ":attribute đã được sử dụng."
+  uploaded: ":attribute tải lên không thành công."
+  url: "Định dạng :attribute không đúng."
+
+  attributes:
+    username: tên người dùng
+    password: mật khẩu
+    email: email
+    title: tiêu đề
+    content: nội dung
+    name_singular: tên
+    name_plural: tên
+    tag_count_primary: số tag chính
+    tag_count_secondary: số tag phụ
