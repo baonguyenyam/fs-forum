@@ -80,12 +80,18 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'R' => 
         array (
             'Reflar\\Reactions\\' => 17,
+            'Reflar\\PrettyMail\\' => 18,
+            'Reflar\\Auth\\GitLab\\' => 19,
             'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+        ),
+        'O' => 
+        array (
+            'Omines\\OAuth2\\Client\\' => 21,
         ),
         'M' => 
         array (
@@ -142,6 +148,7 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'Flarum\\Likes\\' => 13,
             'Flarum\\Flags\\' => 13,
             'Flarum\\Emoji\\' => 13,
+            'Flarum\\Core\\' => 12,
             'Flarum\\BBCode\\' => 14,
             'Flarum\\Auth\\Twitter\\' => 20,
             'Flarum\\Auth\\GitHub\\' => 19,
@@ -160,6 +167,7 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\' => 16,
             'Dflydev\\FigCookies\\' => 19,
+            'Datitisev\\Dashboard\\' => 20,
         ),
         'C' => 
         array (
@@ -280,6 +288,14 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         array (
             0 => __DIR__ . '/..' . '/reflar/reactions/src',
         ),
+        'Reflar\\PrettyMail\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/reflar/pretty-mail/src',
+        ),
+        'Reflar\\Auth\\GitLab\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/reflar/oauth-gitlab/src',
+        ),
         'Ramsey\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
@@ -291,6 +307,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Omines\\OAuth2\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/omines/oauth2-gitlab/src',
         ),
         'Monolog\\' => 
         array (
@@ -447,6 +467,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         array (
             0 => __DIR__ . '/..' . '/flarum/flarum-ext-emoji/src',
         ),
+        'Flarum\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/reflar/pretty-mail/src/Overrides',
+        ),
         'Flarum\\BBCode\\' => 
         array (
             0 => __DIR__ . '/..' . '/flarum/flarum-ext-bbcode/src',
@@ -506,6 +530,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'Dflydev\\FigCookies\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/fig-cookies/src/Dflydev/FigCookies',
+        ),
+        'Datitisev\\Dashboard\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/datitisev/flarum-ext-dashboard/src',
         ),
         'ClarkWinkelmann\\EmojiOneArea\\' => 
         array (

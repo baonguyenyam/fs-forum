@@ -1,0 +1,55 @@
+{
+    "name": "reflar/oauth-gitlab",
+    "description": "Allow users to log in with GitLab.",
+    "type": "flarum-extension",
+    "keywords": [
+        "gitlab",
+        "oauth",
+        "flarum",
+        "reflar"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lopez",
+            "email": "ralkage@reflar.email",
+            "homepage": "https://reflar.io"
+        },
+
+        {
+          "name": "Charlie K",
+          "email": "issyrocks12@reflar.email",
+          "homepage": "https://reflar.io"
+        },
+		
+        {
+          "name": "David S",
+          "email": "datitisev@reflar.email",
+          "homepage": "https://reflar.io"
+        }
+    ],
+    "support": {
+        "issues": "https://gitlab.com/ReFlar/oauth-gitlab/issues",
+        "source": "https://gitlab.com/ReFlar/oauth-gitlab"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6",
+        "omines/oauth2-gitlab": "1.1.0"
+    },
+      "autoload": {
+        "psr-4": {
+            "Reflar\\Auth\\GitLab\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "ReFlar GitLab Login",
+            "icon": {
+                "name": "gitlab",
+                "backgroundColor": "#263238",
+                "color": "#D06503"
+            }
+        }
+    }
+}

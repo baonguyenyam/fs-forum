@@ -56,7 +56,10 @@
         "reflar/reactions": "1.0.0-beta.4.1",
         "xengine/flarum-ext-markdown-editor": "^1.3",
         "vingle/flarum-share-social": "^0.1.0",
-        "johnhearfield/flarum-ext-oauth-google": "v0.1.0-beta.8.1"
+        "johnhearfield/flarum-ext-oauth-google": "v0.1.0-beta.8.1",
+        "datitisev/flarum-ext-dashboard": "^0.1.0@beta",
+        "reflar/pretty-mail": "^0.1.0@beta",
+        "reflar/oauth-gitlab": "^0.1.0@beta"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"
