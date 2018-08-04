@@ -59,7 +59,12 @@
         "johnhearfield/flarum-ext-oauth-google": "v0.1.0-beta.8.1",
         "datitisev/flarum-ext-dashboard": "^0.1.0@beta",
         "reflar/pretty-mail": "^0.1.0@beta",
-        "reflar/oauth-gitlab": "^0.1.0@beta"
+        "reflar/oauth-gitlab": "^0.1.0@beta",
+        "noriods/auto-more": "^0.2.0",
+        "issyrocks12/flarum-ext-filter": "^1.2",
+        "flagrow/ads": "^0.1.0@beta",
+        "clarkwinkelmann/flarum-ext-circle-groups": "^0.1.0@beta",
+        "antoinefr/flarum-ext-online": "^0.3.0"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"

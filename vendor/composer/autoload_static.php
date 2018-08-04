@@ -35,6 +35,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'samdark\\sitemap\\' => 16,
             's9e\\TextFormatter\\' => 18,
         ),
+        'i' => 
+        array (
+            'issyrocks12\\filter\\' => 19,
+        ),
         'Z' => 
         array (
             'Zend\\Stratigility\\' => 18,
@@ -92,6 +96,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'O' => 
         array (
             'Omines\\OAuth2\\Client\\' => 21,
+        ),
+        'N' => 
+        array (
+            'NorioDS\\AutoMore\\' => 17,
         ),
         'M' => 
         array (
@@ -159,6 +167,7 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'Flagrow\\UsersList\\' => 18,
             'Flagrow\\UserDirectory\\' => 22,
             'Flagrow\\Upload\\' => 15,
+            'Flagrow\\Ads\\' => 12,
             'FastRoute\\' => 10,
         ),
         'D' => 
@@ -172,10 +181,12 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'C' => 
         array (
             'ClarkWinkelmann\\EmojiOneArea\\' => 29,
+            'ClarkWinkelmann\\CircleGroups\\' => 29,
         ),
         'A' => 
         array (
             'Avatar4eg\\Transliterator\\' => 25,
+            'AntoineFr\\Online\\' => 17,
         ),
     );
 
@@ -187,6 +198,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         's9e\\TextFormatter\\' => 
         array (
             0 => __DIR__ . '/..' . '/s9e/text-formatter/src',
+        ),
+        'issyrocks12\\filter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/issyrocks12/flarum-ext-filter/src',
         ),
         'Zend\\Stratigility\\' => 
         array (
@@ -311,6 +326,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'Omines\\OAuth2\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/omines/oauth2-gitlab/src',
+        ),
+        'NorioDS\\AutoMore\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/noriods/auto-more/src',
         ),
         'Monolog\\' => 
         array (
@@ -511,6 +530,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         array (
             0 => __DIR__ . '/..' . '/flagrow/upload/src',
         ),
+        'Flagrow\\Ads\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/ads/src',
+        ),
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
@@ -539,9 +562,17 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         array (
             0 => __DIR__ . '/..' . '/clarkwinkelmann/flarum-ext-emojionearea/src',
         ),
+        'ClarkWinkelmann\\CircleGroups\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/clarkwinkelmann/flarum-ext-circle-groups/src',
+        ),
         'Avatar4eg\\Transliterator\\' => 
         array (
             0 => __DIR__ . '/..' . '/avatar4eg/flarum-ext-transliterator/src',
+        ),
+        'AntoineFr\\Online\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/antoinefr/flarum-ext-online/src',
         ),
     );
 

@@ -1,5 +1,42 @@
 [
     {
+        "name": "antoinefr/flarum-ext-online",
+        "version": "0.3.0",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/AntoineFr/flarum-ext-online.git",
+            "reference": "a767e36333062e23a7b6d9603e5dc94b42663255"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/AntoineFr/flarum-ext-online/zipball/a767e36333062e23a7b6d9603e5dc94b42663255",
+            "reference": "a767e36333062e23a7b6d9603e5dc94b42663255",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "time": "2018-04-22T10:42:39+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Online",
+                "icon": {
+                    "name": "user-circle"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "AntoineFr\\Online\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "Display online users on the left sidebar."
+    },
+    {
         "name": "avatar4eg/flarum-ext-transliterator",
         "version": "0.4.0",
         "version_normalized": "0.4.0.0",
@@ -97,6 +134,61 @@
             "i18n",
             "slug",
             "transliterator"
+        ]
+    },
+    {
+        "name": "clarkwinkelmann/flarum-ext-circle-groups",
+        "version": "0.1.0-beta.2",
+        "version_normalized": "0.1.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/clarkwinkelmann/flarum-ext-circle-groups.git",
+            "reference": "46827948cb2f4a5ff608de981c3bec0ee42afc28"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/clarkwinkelmann/flarum-ext-circle-groups/zipball/46827948cb2f4a5ff608de981c3bec0ee42afc28",
+            "reference": "46827948cb2f4a5ff608de981c3bec0ee42afc28",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.6"
+        },
+        "time": "2017-07-20T23:52:57+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Color Circles",
+                "icon": {
+                    "name": "circle-o",
+                    "backgroundColor": "#B72A2A",
+                    "color": "#FFF"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ClarkWinkelmann\\CircleGroups\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Clark Winkelmann",
+                "email": "clark.winkelmann@gmail.com",
+                "homepage": "https://clarkwinkelmann.com"
+            }
+        ],
+        "description": "Add a color circle around avatars based on user group",
+        "keywords": [
+            "design",
+            "extension",
+            "flarum",
+            "groups"
         ]
     },
     {
@@ -707,6 +799,66 @@
             "library",
             "throwable",
             "whoops"
+        ]
+    },
+    {
+        "name": "flagrow/ads",
+        "version": "0.1.0-beta.4",
+        "version_normalized": "0.1.0.0-beta4",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flagrow/ads.git",
+            "reference": "45b505f6eae1ef686f16a8057265edb6a45174df"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flagrow/ads/zipball/45b505f6eae1ef686f16a8057265edb6a45174df",
+            "reference": "45b505f6eae1ef686f16a8057265edb6a45174df",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.6"
+        },
+        "time": "2017-07-22T21:45:57+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Flagrow Ads",
+                "icon": {
+                    "name": "audio-description",
+                    "backgroundColor": "#f4f4f4",
+                    "color": "#5f4bb6"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Flagrow\\Ads\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Daniël Klabbers",
+                "email": "daniel+flarum@klabbers.email",
+                "homepage": "http://hyn.me"
+            },
+            {
+                "name": "Clark Winkelmann",
+                "email": "clark.winkelmann@gmail.com",
+                "homepage": "https://clarkwinkelmann.com"
+            }
+        ],
+        "description": "Bombarding your users with ads everywhere, if you want..",
+        "keywords": [
+            "Advertising",
+            "ads",
+            "flagrow",
+            "flarum"
         ]
     },
     {
@@ -3174,6 +3326,62 @@
         "homepage": "https://github.com/ircmaxell/SecurityLib"
     },
     {
+        "name": "issyrocks12/flarum-ext-filter",
+        "version": "1.2.2",
+        "version_normalized": "1.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CDK2020/flarum-ext-filter.git",
+            "reference": "b66bc5754745285d09436fd006e3060466fdf3d4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CDK2020/flarum-ext-filter/zipball/b66bc5754745285d09436fd006e3060466fdf3d4",
+            "reference": "b66bc5754745285d09436fd006e3060466fdf3d4",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.6",
+            "flarum/flarum-ext-approval": "^0.1.0-beta.6",
+            "flarum/flarum-ext-flags": "^v0.1.0-beta.6"
+        },
+        "time": "2017-05-20T02:24:55+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1.x-dev"
+            },
+            "flarum-extension": {
+                "title": "Filter",
+                "icon": {
+                    "name": "filter",
+                    "backgroundColor": "#263238",
+                    "color": "#fff"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "issyrocks12\\filter\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Charlie K",
+                "email": "charlie@jailbreakhub.org"
+            }
+        ],
+        "description": "Filter out words and phrases from forum posts",
+        "keywords": [
+            "moderation"
+        ]
+    },
+    {
         "name": "johnhearfield/flarum-ext-oauth-google",
         "version": "v0.1.0-beta.8.1",
         "version_normalized": "0.1.0.0-beta8.1",
@@ -3897,6 +4105,61 @@
         "keywords": [
             "router",
             "routing"
+        ]
+    },
+    {
+        "name": "noriods/auto-more",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/noriods/automore.git",
+            "reference": "6815ab62b8b90c7e3a11e44bf406b84a41a0a17f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/noriods/automore/zipball/6815ab62b8b90c7e3a11e44bf406b84a41a0a17f",
+            "reference": "6815ab62b8b90c7e3a11e44bf406b84a41a0a17f",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta-7"
+        },
+        "time": "2018-05-10T14:50:39+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Auto More",
+                "icon": {
+                    "name": "",
+                    "backgroundColor": "",
+                    "color": ""
+                }
+            },
+            "flagrow": {
+                "discuss": ""
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "NorioDS\\AutoMore\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "NorioDS",
+                "email": "flarum@guitartalk.co.za",
+                "role": "Developer"
+            }
+        ],
+        "description": "Automatically clicks the 'load more' button when it comes into view.",
+        "keywords": [
+            "flarum"
         ]
     },
     {

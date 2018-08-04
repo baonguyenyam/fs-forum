@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'samdark\\sitemap\\' => array($vendorDir . '/samdark/sitemap'),
     's9e\\TextFormatter\\' => array($vendorDir . '/s9e/text-formatter/src'),
+    'issyrocks12\\filter\\' => array($vendorDir . '/issyrocks12/flarum-ext-filter/src'),
     'Zend\\Stratigility\\' => array($vendorDir . '/zendframework/zend-stratigility/src'),
     'Zend\\Escaper\\' => array($vendorDir . '/zendframework/zend-escaper/src'),
     'Zend\\Diactoros\\' => array($vendorDir . '/zendframework/zend-diactoros/src'),
@@ -39,6 +40,7 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Omines\\OAuth2\\Client\\' => array($vendorDir . '/omines/oauth2-gitlab/src'),
+    'NorioDS\\AutoMore\\' => array($vendorDir . '/noriods/auto-more/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'MatthiasMullie\\PathConverter\\' => array($vendorDir . '/matthiasmullie/path-converter/src'),
     'MatthiasMullie\\Minify\\' => array($vendorDir . '/matthiasmullie/minify/src'),
@@ -88,6 +90,7 @@ return array(
     'Flagrow\\UsersList\\' => array($vendorDir . '/flagrow/users-list/src'),
     'Flagrow\\UserDirectory\\' => array($vendorDir . '/flagrow/user-directory/src'),
     'Flagrow\\Upload\\' => array($vendorDir . '/flagrow/upload/src'),
+    'Flagrow\\Ads\\' => array($vendorDir . '/flagrow/ads/src'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector'),
     'Doctrine\\Common\\Cache\\' => array($vendorDir . '/doctrine/cache/lib/Doctrine/Common/Cache'),
@@ -95,6 +98,8 @@ return array(
     'Dflydev\\FigCookies\\' => array($vendorDir . '/dflydev/fig-cookies/src/Dflydev/FigCookies'),
     'Datitisev\\Dashboard\\' => array($vendorDir . '/datitisev/flarum-ext-dashboard/src'),
     'ClarkWinkelmann\\EmojiOneArea\\' => array($vendorDir . '/clarkwinkelmann/flarum-ext-emojionearea/src'),
+    'ClarkWinkelmann\\CircleGroups\\' => array($vendorDir . '/clarkwinkelmann/flarum-ext-circle-groups/src'),
     'Avatar4eg\\Transliterator\\' => array($vendorDir . '/avatar4eg/flarum-ext-transliterator/src'),
+    'AntoineFr\\Online\\' => array($vendorDir . '/antoinefr/flarum-ext-online/src'),
     '' => array($vendorDir . '/nesbot/carbon/src'),
 );
