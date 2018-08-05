@@ -29,7 +29,7 @@ core:
       favicon_text: Tải ảnh lên để làm favicon cho diễn đàn.
       logo_heading: Logo
       logo_text: Tải logo lên để hiển thị thay cho tiêu đề diễn đàn.
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
 
     # These translations are used in the Basics page.
     basics:
@@ -41,7 +41,7 @@ core:
       home_page_heading: Trang chủ
       home_page_text: "Chọn trang hiển thị khi user truy cập lần đầu tiên vào diễn đàn. Nếu nhập vào, được dùng để hiển thị thay thế trang mặc định."
       saved_message: Lưu thông tin thành công.
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       welcome_banner_heading: Lời chào
       welcome_banner_text: Thêm đoạn mô tả dùng để hiển thị cho tất cả các trang thảo luận. Dùng như lời chào mừng thành viên mới.
 
@@ -59,7 +59,7 @@ core:
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "Tùy chỉnh giao diện bằng việc thêm vào các file LESS/CSS để áp dụng cho các <a>giao diện mặc định</a> của Flarum."
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: Tùy chỉnh CSS
 
     # These translations are used in the Edit Group modal dialog.
@@ -72,14 +72,14 @@ core:
       name_label: Tên
       plural_placeholder: Số nhiều (e.g. Mods)
       singular_placeholder: Số ít (e.g. Mod)
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: Tạo nhóm mới
 
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
       customize_text: "Mã HTML của bạn ở đây sẽ được hiển thị ở trên tiêu đề của diễn dàn."
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: Chỉnh sửa tiêu đề tùy chọn
 
     # These translations are used in the email page of the admin interface.
@@ -94,7 +94,7 @@ core:
       password_label: => core.ref.password
       port_label: Port
       server_heading: SMTP Server
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       text: Thay đổi thiết lập SMTP và địa chỉ để gửi email.
       username_label: => core.ref.username
 
@@ -163,7 +163,7 @@ core:
 
     # These translations are used in the Settings modal dialog.
     settings:
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
 
     # These translations are used in image upload buttons.
     upload_image:
@@ -178,7 +178,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       incorrect_password_message: Sai mật khẩu.
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
@@ -199,14 +199,14 @@ core:
       body_placeholder: Viết bài...
       discard_confirmation: "Bạn chưa đăng bài. Hủy bài viết nháp nhé?"
       submit_button: Đăng bài
-      title: => core.ref.start_a_discussion
+      title: Thảo luận mới
       title_placeholder: Tiêu đề
 
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Bạn chưa lưu bài. Hủy bài viết nháp nhé?"
       post_link: "Bài #{number} trong {discussion}"
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -241,7 +241,7 @@ core:
     edit_user:
       email_label: => core.ref.email
       password_label: => core.ref.password
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: Thay đổi user
       username_label: => core.ref.username
 
@@ -271,7 +271,7 @@ core:
       mark_all_as_read_confirmation: "Bạn chắc chắn muốn đánh dấu tất cả là đã đọc chứ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Làm mới
-      start_discussion_button: => core.ref.start_a_discussion
+      start_discussion_button: Thảo luận mới
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:

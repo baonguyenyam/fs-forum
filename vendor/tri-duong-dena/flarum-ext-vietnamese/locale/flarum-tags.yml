@@ -9,7 +9,7 @@ flarum-tags:
 
     # These translations are used in the Basics page.
     basics:
-      tags_label: => flarum-tags.ref.tags
+      tags_label: Thẻ
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
@@ -26,7 +26,7 @@ flarum-tags:
 
     # These translations are used in the navigation bar.
     nav:
-      tags_button: => flarum-tags.ref.tags
+      tags_button: Thẻ
       tags_text: Quản lý tất cả tag để gắn vào bài viết.
 
     # These translations are used in the Permissions page of the admin interface.
@@ -74,7 +74,7 @@ flarum-tags:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Thêm ...
-      tags_link: => flarum-tags.ref.tags
+      tags_link: Thẻ
       untagged_link: Bỏ tag
 
     # These translations are displayed between posts in the post stream.
@@ -98,4 +98,4 @@ flarum-tags:
   ref:
     create_tag: Tạo tag mới
     name: Tên
-    tags: Tag
+    tags: Thẻ

@@ -31,7 +31,7 @@ core:
       favicon_text: Upload an image to be displayed as the forum's shortcut icon.
       logo_heading: Logo
       logo_text: Upload an image to be displayed in place of the forum title.
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
 
     # These translations are used in the Basics page.
     basics:
@@ -44,7 +44,7 @@ core:
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
       saved_message: Your changes were saved.
       show_language_selector_label: Show language selector
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       welcome_banner_heading: Welcome Banner
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
 
@@ -62,7 +62,7 @@ core:
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: Edit Custom CSS
 
     # These translations are used in the Edit Group modal dialog.
@@ -75,13 +75,13 @@ core:
       name_label: Name
       plural_placeholder: Plural (e.g. Mods)
       singular_placeholder: Singular (e.g. Mod)
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: Create Group
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
       customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: Edit Custom Header
 
     # These translations are used in the email page of the admin interface.
@@ -96,7 +96,7 @@ core:
       password_label: => core.ref.password
       port_label: Port
       server_heading: SMTP Server
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       text: Configure the SMTP settings and addresses your forum will use to send email.
       username_label: => core.ref.username
 
@@ -164,7 +164,7 @@ core:
 
     # These translations are used in the Settings modal dialog.
     settings:
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
 
     # These translations are used in image upload buttons.
     upload_image:
@@ -201,14 +201,14 @@ core:
       body_placeholder: Viết bài...
       discard_confirmation: "Bạn chưa đăng bài. Hủy bài viết nháp nhé?"
       submit_button: Đăng bài
-      title: => core.ref.start_a_discussion
+      title: Thảo luận mới
       title_placeholder: Tiêu đề
 
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Bạn chưa lưu bài. Hủy bài viết nháp nhé?"
       post_link: "Bài #{number} trong {discussion}"
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -249,7 +249,7 @@ core:
       username_heading: => core.ref.username
       email_label: => core.ref.email
       password_label: => core.ref.password
-      submit_button: => core.ref.save_changes
+      submit_button: Lưu lại
       title: Thay đổi user
       username_label: => core.ref.username
 
@@ -281,7 +281,7 @@ core:
       mark_all_as_read_confirmation: "Bạn chắc chắn muốn đánh dấu tất cả là đã đọc chứ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Làm mới
-      start_discussion_button: => core.ref.start_a_discussion
+      start_discussion_button: Thảo luận mới
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
