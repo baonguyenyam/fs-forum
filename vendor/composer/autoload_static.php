@@ -115,6 +115,7 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         ),
         'J' => 
         array (
+            'JordanJay29\\Summaries\\' => 22,
             'JohnHearfield\\Auth\\Google\\' => 26,
         ),
         'I' => 
@@ -176,6 +177,8 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\' => 16,
             'Dflydev\\FigCookies\\' => 19,
+            'Davis\\CustomHeader\\' => 19,
+            'Davis\\CustomFooter\\' => 19,
             'Datitisev\\Dashboard\\' => 20,
         ),
         'C' => 
@@ -357,6 +360,10 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'League\\Flysystem\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
+        ),
+        'JordanJay29\\Summaries\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jordanjay29/flarum-ext-summaries/src',
         ),
         'JohnHearfield\\Auth\\Google\\' => 
         array (
@@ -553,6 +560,14 @@ class ComposerStaticInitd6d4f97939432b65ae7c3c08df71e311
         'Dflydev\\FigCookies\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/fig-cookies/src/Dflydev/FigCookies',
+        ),
+        'Davis\\CustomHeader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/davis/flarum-ext-customheader/src',
+        ),
+        'Davis\\CustomFooter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/davis/flarum-ext-customfooter/src',
         ),
         'Datitisev\\Dashboard\\' => 
         array (

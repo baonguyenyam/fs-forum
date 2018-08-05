@@ -383,6 +383,115 @@
         "description": "A dashboard for the admin interface in Flarum"
     },
     {
+        "name": "davis/flarum-ext-customfooter",
+        "version": "v0.1.0-beta5",
+        "version_normalized": "0.1.0.0-beta5",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dav-is/flarum-ext-customfooter.git",
+            "reference": "aa112e533bc0b050abe4662dbc6a57596d09954e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dav-is/flarum-ext-customfooter/zipball/aa112e533bc0b050abe4662dbc6a57596d09954e",
+            "reference": "aa112e533bc0b050abe4662dbc6a57596d09954e",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.5"
+        },
+        "time": "2018-08-04T23:02:17+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Custom Footer",
+                "icon": {
+                    "name": "columns",
+                    "backgroundColor": "#26A65B",
+                    "color": "#ecf0f1"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Davis\\CustomFooter\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Connor Davis",
+                "email": "davis@produes.co"
+            }
+        ],
+        "description": "Allows Addition of Custom Footer",
+        "keywords": [
+            "customization",
+            "davis",
+            "flarum",
+            "footer"
+        ]
+    },
+    {
+        "name": "davis/flarum-ext-customheader",
+        "version": "v0.1.0-beta4",
+        "version_normalized": "0.1.0.0-beta4",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dav-is/flarum-ext-customheader.git",
+            "reference": "d89e6674178c42ac791f3af5254a8a17e6147edd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dav-is/flarum-ext-customheader/zipball/d89e6674178c42ac791f3af5254a8a17e6147edd",
+            "reference": "d89e6674178c42ac791f3af5254a8a17e6147edd",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.5"
+        },
+        "time": "2018-08-04T22:56:59+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Custom Header",
+                "icon": {
+                    "name": "columns",
+                    "backgroundColor": "#8e44ad",
+                    "color": "#ecf0f1"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Davis\\CustomHeader\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Connor Davis",
+                "email": "davis@produes.co"
+            }
+        ],
+        "description": "Allows Addition of Custom Header",
+        "keywords": [
+            "customization",
+            "davis",
+            "flarum",
+            "header"
+        ],
+        "abandoned": "Feature added in flarum/core@beta.6"
+    },
+    {
         "name": "dflydev/fig-cookies",
         "version": "v1.0.2",
         "version_normalized": "1.0.2.0",
@@ -3431,6 +3540,60 @@
         "description": "Allow users to log in with Google.",
         "keywords": [
             "Authentication"
+        ]
+    },
+    {
+        "name": "jordanjay29/flarum-ext-summaries",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jordanjay29/flarum-ext-summaries.git",
+            "reference": "1ee6d657b9aafb22c4b329742f5e85d067a36d10"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jordanjay29/flarum-ext-summaries/zipball/1ee6d657b9aafb22c4b329742f5e85d067a36d10",
+            "reference": "1ee6d657b9aafb22c4b329742f5e85d067a36d10",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.3"
+        },
+        "time": "2016-03-10T19:19:48+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1.x-dev"
+            },
+            "flarum-extension": {
+                "title": "Summaries",
+                "icon": {
+                    "name": "sticky-note",
+                    "backgroundColor": "#00bac9",
+                    "color": "#fff"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "JordanJay29\\Summaries\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jordan Schnaidt (jordanjay29)",
+                "email": "jordanschnaidt@gmail.com"
+            }
+        ],
+        "description": "Show summaries on all discussions.",
+        "keywords": [
+            "discussion"
         ]
     },
     {
